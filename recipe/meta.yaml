@@ -1,5 +1,5 @@
 {% set name = "Oasis" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url : https://github.com/MAfarrag/Oasis/archive/{{ version }}.tar.gz
-  sha256:  3156b3eabe0d3759d923b7ca432b21e865fc6528b699cd315340105dd8d631bf
+  sha256:  80884f991f0b871f1566c51aa36aedd17ddb1a839f009f393b99c77e808295cf
 
 build:
   noarch: python
