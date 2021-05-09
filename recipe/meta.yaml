@@ -7,7 +7,7 @@ package:
 
 source:
   url : https://github.com/MAfarrag/Oasis/archive/{{ version }}.tar.gz
-  sha256:  329030e6afa0cb3177c1d978e86d7a451eb52a750adb1d8f68341608e779ae8b
+  sha256:  b25f5a2190179755540a26009ce8cbc4271eda8d0b28d278d1cf81b6ca4d87a1
 
 build:
   noarch: python
